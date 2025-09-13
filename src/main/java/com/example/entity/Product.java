@@ -4,7 +4,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
- 
+
 @Entity
 (name = "product")
 public class Product {
@@ -21,8 +21,6 @@ public class Product {
  
     @Column(nullable = false)
     private int quantity;
- 
-    // Constructors, getters and setters, and other methods...
  
     // Getters
     public Long getId() {
